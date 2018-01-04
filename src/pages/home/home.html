@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <ion-card *ngFor='let sms of mySMS'>
+ 	<ion-card-content>
+ 		{{sms.body}}
+ 	</ion-card-content>
+ </ion-card>
+</ion-content>
